@@ -7,8 +7,8 @@ Materials can be added to the warehouse, or removed from it. Materials can also 
 Task:
 
 Make classes and methods to handle this logic in terms of data. 
-Come up with an ideal set of data structures for this task. What classes do you need, what methods do they need to have? Should you use arrays or maps? What’s the best OOP approach? Do you need interfaces or Generic types? Code with answers in mind.
-Make a list of proper API methods in order to work with this data. Your warehouse class should be intuitive and easy to use by another engineer. Maybe worth commenting on it too? 
+Come up with an ideal set of data structures for this task. 
+Make a list of proper API methods in order to work with this data.Warehouse class should be intuitive and easy to use by another engineer.
 Have some ways of outputting current warehouse data so you can debug and test your results. Just a text output is fine.
 Make sure your lookup operations are fast and optimal. How costly is it to add or remove a material or query warehouse to know how much you have for each? Imagine this operation happening 100 times per second per material, is your code leaking memory or making GC crunch? Make sure things are optimal. 
 
